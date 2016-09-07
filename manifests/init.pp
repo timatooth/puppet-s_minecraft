@@ -11,11 +11,11 @@ class s_minecraft {
     source => 'http://builds.enginehub.org/job/worldedit/9404/download/worldedit-bukkit-6.1.5-SNAPSHOT-dist.jar'
   }
   
-  minecraft::plugin { 'EssentialsX-2.0.1.jar':
+  minecraft::plugin { 'EssentialsX-2.0.1':
     source => 'https://ci.drtshock.net/job/essentialsx/lastSuccessfulBuild/artifact/Essentials/target/EssentialsX-2.0.1.jar'
   }
   
-  minecraft::plugin { 'EssentialsXSpawn-2.0.1.jar':
+  minecraft::plugin { 'EssentialsXSpawn-2.0.1':
     source => 'https://ci.drtshock.net/job/essentialsx/lastSuccessfulBuild/artifact/EssentialsSpawn/target/EssentialsXSpawn-2.0.1.jar'
   }
 
