@@ -31,5 +31,5 @@ class s_minecraft {
     source => 'http://build.mctcp.com/job/TerrainControl%20-%20Master%20-%20Gradle/default/lastSuccessfulBuild/artifact/platforms/bukkit/build/distributions/terraincontrol-bukkit-2.8.2-SNAPSHOT.jar'
   }
 
-  include ::s_mincraft::config
+  include ::s_minecraft::config
 }
