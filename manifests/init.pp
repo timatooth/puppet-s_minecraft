@@ -30,4 +30,6 @@ class s_minecraft {
   minecraft::plugin { 'terraincontrol-bukkit-2.8.2-SNAPSHOT':
     source => 'http://build.mctcp.com/job/TerrainControl%20-%20Master%20-%20Gradle/default/lastSuccessfulBuild/artifact/platforms/bukkit/build/distributions/terraincontrol-bukkit-2.8.2-SNAPSHOT.jar'
   }
+
+  include ::s_mincraft::config
 }
