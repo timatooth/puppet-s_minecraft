@@ -1,8 +1,9 @@
 class s_minecraft::config ($server_properties = '/opt/minecraft/server.properties') {
 
   file_line { 'online-mode':
-    path => $server_properties,
-    line => 'online-mode=false',
+    path  => $server_properties,
+    match => '^online-mode='
+    line  => 'online-mode=false',
   }
   file_line { 'max-players':
     path => $server_properties,
